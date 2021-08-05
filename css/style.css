@@ -9,11 +9,14 @@ body {
     font-size: 16px;
 }
 
+   
+    
+
+
 .header {
     background-color: #000000;
     color: #000000;
     height: 100px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,31 +236,81 @@ li a:hover {
     width: 1000px;
     margin-top: 100px;
     margin-bottom: 100px;
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
 
-.covers img {
+.covers img { 
     width: 320px;
-    height: 480px;
+    height: auto;
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-shadow: 2px 2px 10px 3px #c2c2c270;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    
 }
-
 .covers a {
-    font-size: 30px;
+    font-size:30px;
     font-weight: bolder;
     color: #000000;
     text-decoration: none;
+    text-align: center;
 }
-
+    
 .covers a:hover {
     opacity: 0.8;
+}
+
+.container-1{
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 0px 20px 3px #c2c2c270;
+}
+
+.last{
+    width: 1000px;
+
+    margin-bottom: 100px;
+}
+
+.last h1{
+    width: 900px;
+    background-color:#ffffffce;;
+    font-size:50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px#c2c2c270; 
+}
+
+
+.stage{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: 20px;
+    
+}
+
+.galery h2{
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    border-bottom:1px solid #000 ;
+}
+
+.galery img{
+    width: 150px;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px#ffee00; 
 }
 
 /* FIN PAGINA DE INICIO */
