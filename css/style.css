@@ -268,7 +268,6 @@ li a:hover {
 
 .last{
     width: 1000px;
-
     margin-bottom: 100px;
 }
 
@@ -355,8 +354,6 @@ li a:hover {
     display: flex;
     justify-content: space-evenly;
 }
-
-
 
 a.right {
     display: flex;
