@@ -407,7 +407,7 @@ a.right {
 
 .fa-angle-left {
     text-decoration: none;
-    color: rgb(230, 230, 230);
+    color: #e6e6e6;
     background-color: #1a1a1a;
     width: 400px;
     margin: 0;
@@ -417,3 +417,56 @@ a.right {
 }
 
 /* FIN PAGINA EPISODIO ANIME */
+
+/* CAPITULOS MANGA */
+
+.capitulos{
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: 50px;
+    width: 90%;
+    height:100%;
+}
+
+.content-cp{
+    width: 100%;
+    display: block;
+}
+
+.mySlides{
+    width: 100%;
+    display: none;
+}
+
+.my-section{
+    width: 600px;
+    display: flex;
+    justify-content:space-around;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+      
+
+.my-button{
+    width: 200px;
+    height: 50px;
+    margin:5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    background-color: #1a1a1a;
+    border: none;
+    padding: 5px;
+    color: #e6e6e6;
+}
+
+.demo{
+    background-color: #fff;
+    border: none;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.w3-red{
+    background-color: #ff6600;
+}
