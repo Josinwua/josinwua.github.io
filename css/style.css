@@ -420,7 +420,7 @@ a.right {
 
 /* CAPITULOS MANGA */
 
-.capitulos{
+#capitulos{
     margin-left: auto;
     margin-right:auto ;
     margin-bottom: 50px;
@@ -430,12 +430,11 @@ a.right {
 
 .content-cp{
     width: 100%;
-    display: block;
 }
 
 .mySlides{
+    background-color: #b6b6b6;
     width: 100%;
-    display: none;
 }
 
 .my-section{
@@ -444,12 +443,13 @@ a.right {
     justify-content:space-around;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
       
-
 .my-button{
-    width: 200px;
+    width: 150px;
     height: 50px;
     margin:5px;
     font-family: 'Anton', sans-serif;
@@ -458,15 +458,64 @@ a.right {
     border: none;
     padding: 5px;
     color: #e6e6e6;
+    border-radius:15px ;
+}
+
+.my-buttone{
+    width: 200px;
+    height: 50px;
+    margin:5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    background-color: #ff9900;
+    border: none;
+    padding: 5px;
+    color: #2c2c2c;
+    border-radius:15px ;
 }
 
 .demo{
+    width: 25px;
+    height: 25px;
+    margin: 3px;
     background-color: #fff;
     border: none;
     font-family: 'Anton', sans-serif;
-
 }
 
 .w3-red{
     background-color: #ff6600;
+}
+
+.paginator{
+    display: flex;
+    flex-flow:row wrap;
+    padding: 10px;
+}
+
+.title-manga{
+    color: #000;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+
+.subtitle-manga{
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* DISQU */
+
+#disqus_thread{
+    background-color: #fff;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
