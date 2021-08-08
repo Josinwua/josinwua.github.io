@@ -55,7 +55,7 @@ li a:hover {
 
 /* PAGINA ANIME */
 
-.container {
+.container-1 {
     background-image: url(/assets/imgs/Banner.png);
     background-repeat: no-repeat;
     background-color: #ffffff;
@@ -168,7 +168,89 @@ li a:hover {
 
 }
 
+
+.sinopsis-1 {
+    background-color: #ffffffce;
+    margin: 60px 50px 30px 30px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 3px #c2c2c270;
+}
+
 /* FIN PAGINA ANIME */
+
+
+/* PAGINA MANGA */
+
+.container-2 {
+    background-image: url(/assets/imgs/Banner-manga.png);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 0px 20px 3px #c2c2c270;
+
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover-1 {
+    width: 280px;
+    height: 400px;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 10px 3px #c2c2c270;
+    border-radius: 10px;
+}
+
+.chapters {
+    background-color: #ffffffce;
+    width: 900px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px 3px #c2c2c270;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction:column;
+    height: 550px;
+    overflow-y: auto;
+   
+}
+
+.list-1 a{
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px;
+}
+
+ .list-1 a:nth-child(odd) {
+    background-color: #e6e6e6;
+   
+  }
+  
+.list-1 a:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+
+/* FIN PAGINA MANGA */
 
 /* FOOTER */
 
@@ -250,7 +332,7 @@ li a:hover {
     opacity: 0.8;
 }
 
-.container-1 {
+.container {
     display: flex;
     flex-flow: column;
     background-color: #fff;
@@ -510,6 +592,8 @@ a.right {
     font-size: 20px;
 }
 
+/* FIN CAPITULOS MANGA */
+
 /* DISQU */
 
 #disqus_thread{
@@ -519,3 +603,76 @@ a.right {
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+/* SCROLL ANIME*/
+
+.list::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 10px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.list::-webkit-scrollbar-thumb {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.list::-webkit-scrollbar-thumb:hover {
+    background: #1f1f1f;
+    box-shadow: 0 0 2px 1px #00000033;
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.list::-webkit-scrollbar-thumb:active {
+    background-color: #1f1f1f;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.list::-webkit-scrollbar-track {
+    background: #dadada;
+    border-radius: 10px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.list::-webkit-scrollbar-track:hover,
+.list::-webkit-scrollbar-track:active {
+  background: #dadada;
+}
+
+/* SCROLL ANIME*/
+
+.list-1::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 10px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.list-1::-webkit-scrollbar-thumb {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.list-1::-webkit-scrollbar-thumb:hover {
+    background: #1f1f1f;
+    box-shadow: 0 0 2px 1px #00000033;
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.list-1::-webkit-scrollbar-thumb:active {
+    background-color: #1f1f1f;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.list-1::-webkit-scrollbar-track {
+    background: #dadada;
+    border-radius: 10px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.list-1::-webkit-scrollbar-track:hover,
+.list-1::-webkit-scrollbar-track:active {
+  background: #dadada;
+}
+
